@@ -1,6 +1,5 @@
 package com.kingyuluk.flappybird.app;
 
-import com.kingyuluk.flappybird.game.GameFrame;
 import com.kingyuluk.flappybird.game.GameFrameV1;
 
 /**
@@ -12,6 +11,6 @@ import com.kingyuluk.flappybird.game.GameFrameV1;
 public class GameApp {
 
     public static void main(String[] args) {
-        new GameFrame();
+        new GameFrameV1().start();
     }
 }
